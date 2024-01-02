@@ -1,12 +1,11 @@
 {
-    "name": "epuzzle/magento2-customer-price-admin-ui",
+    "name": "drinks-it/magento2-customer-price-admin-ui",
     "description": "This module provides admin UI for customer prices module",
     "config": {
         "sort-packages": true
     },
-    "version": "1.1.2",
     "require": {
-        "epuzzle/magento2-customer-price": "1.1.*"
+        "drinks-it/magento2-customer-price": "*"
     },
     "suggest": {},
     "type": "magento2-module",
@@ -20,5 +19,11 @@
         "psr-4": {
             "EPuzzle\\CustomerPriceAdminUi\\": ""
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/drinks-it/magento2-customer-price.git"
+        }
+    ]
 }
