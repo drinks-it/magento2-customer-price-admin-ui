@@ -70,42 +70,6 @@
                 <label translate="true">Name</label>
             </settings>
         </column>
-        <column name="attribute_set_id" component="Magento_Ui/js/grid/columns/select">
-            <settings>
-                <options class="Magento\Catalog\Model\Product\AttributeSet\Options"/>
-                <filter>select</filter>
-                <dataType>select</dataType>
-                <label translate="true">Attribute Set</label>
-            </settings>
-        </column>
-        <column name="attribute_set_text" class="Magento\Catalog\Ui\Component\Listing\Columns\AttributeSetText">
-            <settings>
-                <label translate="true">AttributeSetText</label>
-                <visible>false</visible>
-            </settings>
-        </column>
-        <column name="status" component="Magento_Ui/js/grid/columns/select">
-            <settings>
-                <options class="Magento\Catalog\Model\Product\Attribute\Source\Status"/>
-                <filter>select</filter>
-                <dataType>select</dataType>
-                <label translate="true">Status</label>
-            </settings>
-        </column>
-        <column name="status_text" class="Magento\Catalog\Ui\Component\Listing\Columns\StatusText">
-            <settings>
-                <label translate="true">StatusText</label>
-                <visible>false</visible>
-            </settings>
-        </column>
-        <column name="type_id" component="Magento_Ui/js/grid/columns/select">
-            <settings>
-                <options class="Magento\Catalog\Model\Product\Type"/>
-                <filter>select</filter>
-                <dataType>select</dataType>
-                <label translate="true">Type</label>
-            </settings>
-        </column>
         <column name="sku">
             <settings>
                 <filter>text</filter>
